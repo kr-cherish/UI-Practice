@@ -7,10 +7,12 @@ const Section1 = () => {
     <div className=''>
       <div className="w-full bg-cover bg-center "
         style={{ backgroundImage: "url('/Images/Section-1-Bg.jpeg')" }}>
-          <div className='max-w-[1440px] mx-auto p-2'> <Navbar />
-        <MiddleSection />
-        <BottomSection /></div>
-       
+        <div className='max-w-[1440px] mx-auto px-5 py-3'>
+          <Navbar />
+          <MiddleSection />
+          <BottomSection />
+        </div>
+
       </div>
     </div>
   )
